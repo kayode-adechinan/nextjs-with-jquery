@@ -30,6 +30,7 @@ const Home = () => {
       });
     };
 
+    // DOMContentLoaded
     window.addEventListener("load", handleDOMContentLoaded);
 
     return () => {
@@ -40,7 +41,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>My page title!</title>
+        <title>My page title!!!</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
@@ -71,7 +72,7 @@ const Home = () => {
         src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       /> */}
       <div>
-        <h1>Hello world !!</h1>
+        <h1>Hello world!!!!</h1>
         <div>
           {!isSSR && (
             <SafeHydrate>
